@@ -1,0 +1,35 @@
+
+table{
+    width: 100%;
+}
+        
+h2 + p{
+	font-style: italic;
+	font-weight: bold;
+	text-indent: 50px;
+}
+
+#consejo {
+    background-color: #CBCA85;
+}
+
+#textolinea {
+    text-decoration: underline;
+    background-color: #F8DDC2;
+    text-transform: uppercase;
+}
+
+h3 {
+    background-color: #AA815A;
+}
+
+.clase {
+    font-style: italic;
+    color: #765D8A;
+}
+
+#idparaestilo {
+    background-color: #9784A6;
+    letter-spacing: 3px;
+}
+        
