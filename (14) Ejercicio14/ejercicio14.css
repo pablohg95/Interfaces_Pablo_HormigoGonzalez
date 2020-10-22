@@ -1,0 +1,40 @@
+﻿#grande {
+    width: 40em;
+    margin: auto;
+    overflow: auto;
+    border: solid 1px black;
+    background-color: white;
+}
+
+#caja {
+    width: 28%;
+    height: 10em;
+    border: solid 1px black;
+    margin: 1em;
+    display:inline-block;
+}
+
+.medio{
+    background-color: green;
+}
+
+.bajo{
+    background-color: blue;
+}
+
+#caja:nth-child(even){
+    display:none;
+}
+
+
+.izquierda{
+    float:left;
+}
+
+.abajo{
+    clear: left;
+}
+
+.derecha{
+    float:right;
+}
