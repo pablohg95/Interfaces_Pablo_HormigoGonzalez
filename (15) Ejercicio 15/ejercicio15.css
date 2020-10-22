@@ -1,0 +1,33 @@
+﻿#contenedor{
+    background: rgb(238,235,2);
+    background: linear-gradient(0deg, rgba(238,235,2,1), rgba(42,129,3,1) 10%);
+    border-radius: 1em;
+    max-width: 54em;
+    margin: 0 auto;
+}
+
+ul{
+    margin-top:-0.8em;
+    margin-left: 21em;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(245,251,63);
+    background: radial-gradient(circle, rgba(245,251,63,1) 0%, greenyellow 100%);
+    border-radius: 0.3em;
+}
+
+h1{
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+p{
+    margin-left: 1em;
+    margin-top: -1.5em;
+}
