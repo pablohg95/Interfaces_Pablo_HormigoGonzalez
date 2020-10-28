@@ -1,0 +1,19 @@
+#contenedor{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: lightseagreen;
+    height: 250px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenido{
+    width: 20%;
+    height: 40px;
+	text-align: center;
+	line-height: 2rem;
+    font-size: 15px;  
+    background-color: orangered;
+    color: white;
+}

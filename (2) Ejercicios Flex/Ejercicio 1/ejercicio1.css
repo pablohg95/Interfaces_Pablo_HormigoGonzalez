@@ -1,0 +1,30 @@
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightseagreen;
+    height: 100px;
+    width: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#interior{
+    width: 18%;
+    height: 30px;
+	text-align: center;
+	line-height: 2rem;
+    font-size: 15px;  
+    background-color: orangered;
+    color: white;
+}
+
+.contenedor2{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightseagreen;
+    height: 100px;
+    width: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+}

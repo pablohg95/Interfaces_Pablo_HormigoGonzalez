@@ -1,0 +1,33 @@
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: darkblue;
+    height: 300px;
+    width: 600px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.contenido{
+    width: 120px;
+    height: 120px;
+	text-align: center;
+	line-height: 8rem;
+    font-size: 30px;  
+    background-color: lightblue;
+    color: black;
+    border: 1px solid white;
+}
+
+#contenedor2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: darkblue;
+    height: 300px;
+    width: 600px;
+    align-content: space-between;
+    justify-content: space-between;
+}
