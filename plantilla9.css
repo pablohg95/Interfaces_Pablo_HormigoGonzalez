@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.primero{
+    text-align: center;
+    background: rgb(0,3,93);
+    background: linear-gradient(90deg, rgba(0,3,93,1) 0%, rgba(28,69,214,1) 50%, rgba(0,3,93,1) 100%);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7em;
+}
+
+.primero p{
+    font-size: larger;
+}
+
+.primero p:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#lista li{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#lista li:hover{
+    background-color: #020A1C;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+h1{
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: -50px;
+}
+
+.interior1 {
+    display: inline;
+    margin-left: 100px;   
+}
+
+.interior1 img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.interior1 p{
+    display:inline;
+    margin-left: 2px;
+}
+
+.segundo {
+    background-image: url("Imagenes/castillogrande.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: 7em;
+}
+
+h2{
+    padding-top: 100px;
+}
+
+h2{
+    font-size: x-large;
+    color: white;
+    padding-left: 200px;
+}
+
+.segundo p{
+    color: white;
+    padding-left: 200px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-left: 15em;
+    margin-top: 2em;
+    text-decoration: none;
+}
+
+button:hover{
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+
+button a:hover{
+    color:black;
+}
+
+.tercero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0,3,93);
+    background: linear-gradient(90deg, rgba(0,3,93,1) 0%, rgba(28,69,214,1) 50%, rgba(0,3,93,1) 100%);
+}
+
+.tercero .item{
+    border: 5px ridge lightgray;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.tercero .item:nth-child(1){
+    margin-right: -200px;
+}
+
+
+.tercero .item:nth-child(3){
+    margin-left: -200px;
+}
+
+
+.num{
+    font-size: x-large;
+    color:white;
+    border: 1px solid #4659A6;
+    border-radius: 50%;
+    background-color: #4659A6;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+h3{
+    margin-left: 5px;
+    margin-top: -10px;
+    color: white;
+}
+
+.texto{
+    margin-left: 5px;
+    margin-top: -15px;
+    color: white;
+}
+
+.cuarto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(0,3,93);
+    background: linear-gradient(90deg, rgba(0,3,93,1) 0%, rgba(28,69,214,1) 50%, rgba(0,3,93,1) 100%);
+    padding-top: 90px;
+}
+
+.cuarto .item{
+    color: white;
+    max-width: 400px;
+    height: 400px;
+}
+
+.cuarto .item:nth-child(2){
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: -500px;
+    margin-top: 25px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    padding-left: 100px;
+    padding-top: 5px;
+    font-size: large;
+}
+
+hr{
+    width: 150px;
+}
+
+.cuarto .item button{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+ #form{
+     margin-left: 50px;
+ }
+
+ .cuarto .item h5{
+     color: white;
+ }
+
+ .cuarto .item .itempeq p{
+    color:white;
+    margin-left: 40px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+h6{
+    margin-left: 40px;
+    margin-top: -40px;
+    font-size: 17px;
+}
+
+ .cuarto .item p{
+     color: white;
+ }
+
+ .itempeq img{
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 5px;
+}
+
