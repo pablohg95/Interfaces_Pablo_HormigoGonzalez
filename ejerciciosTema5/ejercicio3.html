@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <audio id ="song" loop>
+        <source src="audios/BennyHillTheme.mp3" type="">
+        <source src="audios/BennyHillTheme.ogg" type="">
+    </audio>
+    
+    <button onclick="iniciar()" type="button">Play</button>
+    <button onclick="pausar()" type="button">Pausar</button>
+    <button onclick="subir()" type="button">SubirVolumen</button>
+    <button onclick="bajar()" type="button">BajarVolumen</button>
+
+    <script> 
+        var cancion = document.getElementById("song"); 
+        
+        function iniciar() { 
+          cancion.play(); 
+        } 
+        
+        function pausar() { 
+          cancion.pause(); 
+        } 
+
+        function subir() { 
+            cancion.volume += 0.2;
+        } 
+
+        function bajar() { 
+            cancion.volume -= 0.2;
+        } 
+
+    </script> 
+</body>
+</html>
