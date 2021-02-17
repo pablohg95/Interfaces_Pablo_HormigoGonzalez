@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+    <style>
+        #contenedor{
+            width: 1600px;
+            height: 800px;
+            border: 1px solid black;
+        }
+
+        img{
+            margin-top: 250px; 
+            background-color: red;
+            animation-name: animacion;
+            animation-iteration-count: infinite;
+            animation-duration: 8s;
+        }
+
+        @keyframes animacion{
+            0%{margin-top:250px; background-color: red;}
+            25%{margin-top:0px; margin-left: 672px; background-color:blue;}
+            50%{margin-top:250px; margin-left: 1344px; background-color:green;}
+            75%{margin-top:544px; margin-left: 672px; background-color:yellow;}
+            100%{margin-top:250px; background-color: red;}
+
+        }
+    </style>
+<body>
+    <div id="contenedor">
+        <img src="imagenes/dvd.png">
+    </div>
+</body>
+</html>
