@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class MainLayouts extends Application {
 	
 	private BorderPane rootLayout;
-	private Stage primaryStage;
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
