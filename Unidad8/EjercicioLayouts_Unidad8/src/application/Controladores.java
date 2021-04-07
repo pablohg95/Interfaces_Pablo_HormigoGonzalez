@@ -58,7 +58,6 @@ public class Controladores {
 			padre.getChildren().add(new TreeItem<String>("Distribution"));
 			padre.getChildren().add(new TreeItem<String>("Costs"));
 			
-			
 			treeVista.setCellFactory(TextFieldTreeCell.forTreeView());
 			
 			padre.setExpanded(true); 
