@@ -22,7 +22,8 @@ public class MainFlowPane extends Application {
 			// Mostramos la escena del FlowPane de la variable rootLayot
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
-			scene.getStylesheets().add("ejercicio1.css");
+			scene.getStylesheets().add("ejercicio1/ejercicio1.css");
+			//scene.getStylesheets().add("ejercicio1/ejercicio1Horizontal.css");
 			primaryStage.setTitle("Ejercicio 1");
 			primaryStage.show();
 		} catch (Exception e) {
