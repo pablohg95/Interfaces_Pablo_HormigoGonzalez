@@ -1,0 +1,14 @@
+#contenedor{
+	-fx-column-halignment: center ;
+}
+
+#boton1{
+	
+	-fx-padding: 20;
+}
+
+#boton2{
+	-fx-padding: 0;
+	-fx-background-radius: 0;
+	-fx-border-color: #E5E5E5;
+}
