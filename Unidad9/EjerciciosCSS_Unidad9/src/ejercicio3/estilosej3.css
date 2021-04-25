@@ -1,0 +1,86 @@
+#vboxIzq{
+	-fx-border-color: blue, red;
+	-fx-border-insets: 8 8 0 8, 12 12 4 12;
+	-fx-background-image: url("../imgs/arrow_t_up_right.png");
+    -fx-background-size: 100;
+    -fx-background-position: center top;
+    -fx-background-repeat: no-repeat;
+}
+
+#vboxIzq Hyperlink{
+	-fx-text-fill: red;
+}
+
+#vboxIzq Hyperlink:visited{
+	-fx-text-fill: green;
+}
+
+#vboxIzq .tree-cell:collapsed{
+	-fx-font-style: italic;
+}
+
+#vboxIzq .tree-cell:expanded{
+	-fx-font-style: bold;
+}
+
+#borderPanePrincipal{
+	-fx-background-color: lightgreen;
+}
+
+#gridPrincipal{
+	-fx-background-color: lightblue;
+	-fx-background-radius: 10;
+    -fx-background-insets: 8 8 0 0;
+    -fx-padding: 10;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+#gridPrincipal RadioButton:selected, #gridPrincipal CheckBox:selected{
+	-fx-border-width: 2px;
+	-fx-border-color: red;
+}
+
+#gridPrincipal .list-cell:even:selected {
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#gridPrincipal .list-cell:odd:selected {
+	-fx-background-color: red;
+	-fx-text-fill: white;
+}
+
+#dcha TitledPane:expanded {
+	-fx-font-style: italic;
+}
+
+#dcha TitledPane:expanded AnchorPane{
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: contain;
+	-fx-rotate: 30deg;
+}
+
+#dcha #img1:expanded AnchorPane{
+	-fx-background-image: url("../imgs/Img1.PNG");	
+}
+
+#dcha #img2:expanded AnchorPane{
+	-fx-background-image: url("../imgs/Img2.PNG");
+}
+
+#dcha #img3:expanded AnchorPane{
+	-fx-background-image: url("../imgs/Img3.PNG");
+}
+
+#dcha #img4:expanded AnchorPane{
+	-fx-background-image: url("../imgs/Img4.PNG");
+}
+
+#dcha Accordion{
+	-fx-pref-height: 200;
+}
+
+#piePagina{
+	-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #32cd32);
+}
