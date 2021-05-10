@@ -22,7 +22,7 @@ public class Controlador {
 		textDialog.setTitle("Ejemplo de diálogo");
 		textDialog.setHeaderText("Diálogo para introducir un texto");
 		
-		TextField textFieldDialog = textDialog.getEditor();
+		DialogPane textFieldDialog = textDialog.getDialogPane();
 		
 		textFieldDialog.addEventFilter(KeyEvent.KEY_TYPED, e ->{
 			if(Character.isLowerCase(e.getCharacter().charAt(0))) {
